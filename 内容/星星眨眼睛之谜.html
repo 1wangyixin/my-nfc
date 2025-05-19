@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>星星眨眼睛之谜 - 《梦溪笔谈》</title>
+    <style>
+        body {
+            font-family: 'Microsoft YaHei', sans-serif;
+            background-color: #bbdefb;
+            color: white;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .video-container {
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 20px;
+        }
+        video {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 150, 255, 0.5);
+        }
+        h1 {
+            color: #4fc3f7;
+            margin: 20px 0;
+        }
+        .back-btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #1565c0;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .back-btn:hover {
+            background-color: #0d47a1;
+        }
+    </style>
+</head>
+<body>
+    <div class="video-container">
+        <h1>星星眨眼睛之谜</h1>
+        <div class="progress-container">
+            <div class="progress-bar" id="progress"></div>
+        </div>
+        
+        <audio controls id="audio-player">
+            <source src="音频/1《星星眨眼》.mp3" type="audio/mpeg">
+            您的浏览器不支持音频播放
+        </audio>
+        <div class="container">
+        <a href="../index.html" class="back-btn">返回目录</a>
+    </div>
+    </div>
+</body>
+</html>
